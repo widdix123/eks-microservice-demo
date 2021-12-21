@@ -1,0 +1,5 @@
+interval: 30m # defines refresh interval
+registries: # list of registries to refresh
+  - registryId: "866572682550"
+    region: "us-east-1"
+    passwordFile: "/etc/passwords/my-ecr-registry.pass"
