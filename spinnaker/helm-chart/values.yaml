@@ -8,8 +8,8 @@ detail:
   name: proddetail
 
   image:
-    repository: public.ecr.aws/u2g6w7p2/eks-microservice-demo/detail
-    tag: "4.0"
+    repository: 866572682550.dkr.ecr.us-east-1.amazonaws.com/spinnaker-test
+    tag: "v2.0.1"
     pullPolicy: Always
 
   nameOverride: ""
@@ -59,8 +59,8 @@ frontend:
   lbType: alb
 
   image:
-    repository: public.ecr.aws/u2g6w7p2/eks-microservice-demo/frontend
-    tag: "4.0"
+    repository: 866572682550.dkr.ecr.us-east-1.amazonaws.com/spinnaker-test
+    tag: "v2.0.1"
     pullPolicy: Always
 
   nameOverride: ""
